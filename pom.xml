@@ -188,7 +188,7 @@
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-jackson</artifactId>
-            <version>0.12.3</version>
+            <version>0.12.4</version>
             <scope>runtime</scope>
         </dependency>
         <dependency>
@@ -421,7 +421,7 @@
                         <id>enforce</id>
                         <configuration>
                             <rules>
-                                <requireUpperBoundDeps />
+                                <requireUpperBoundDeps/>
                             </rules>
                         </configuration>
                         <goals>
